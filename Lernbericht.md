@@ -1,5 +1,5 @@
 # Lern-Bericht
-##von Joel Fritschi
+## von Joel Fritschi
 
 ## Einleitung
 
