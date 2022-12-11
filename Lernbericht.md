@@ -22,11 +22,11 @@ public class PasswordHasher {
   public static void main(String[] args) {
     String password = "mypassword";
 
-    // Verwenden Sie den SHA-256-Algorithmus, um das Passwort zu hashen
+    // Verwenden des SHA-256-Algorithmus, um das Passwort zu hashen
     MessageDigest digest = MessageDigest.getInstance("SHA-256");
     byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
 
-    // Konvertieren Sie das Hash in einen lesbaren Hexadezimalwert
+    // Konvertiert das Hash in einen lesbaren Hexadezimalwert
     String hexHash = bytesToHex(hash);
     System.out.println("Gehashtes Passwort: " + hexHash);
   }
