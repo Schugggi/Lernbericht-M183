@@ -15,7 +15,7 @@ Passwörter sollten gehasht werden, um sie vor unbefugtem Zugriff zu schützen.
 
 Wenn Passwörter im Klartext gespeichert werden, können sie von jedem, der Zugriff auf die Datenbank hat, gelesen werden. Wenn sie jedoch gehasht werden, werden sie in eine verschlüsselte Form umgewandelt, die nur durch die Anwendung eines bestimmten Algorithmus wieder in lesbare Form gebracht werden kann. Dies bedeutet, dass selbst wenn jemand Zugriff auf die gehashten Passwörter hat, er sie nicht lesen kann, ohne den Algorithmus zu kennen. Gehashte Passwörter sind daher sicherer als Passwörter im Klartext und sollten immer verwendet werden, wenn Passwörter gespeichert werden.
 
-```
+```java
 import java.security.MessageDigest;
 
 public class PasswordHasher {
