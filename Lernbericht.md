@@ -1,4 +1,4 @@
-# Lern-Bericht
+# Lern-Bericht Encyption
 ## von Joel Fritschi
 
 ### Einleitung
@@ -48,7 +48,7 @@ Im beschreibenden Text zeige ich auf, dass ich das Thema verstanden habe und im 
 
 # Reflektion zum Arbeitsprozess
 
-👍 Das Modul allgemein verlief relativ gut und ich konnte die meisten Sicheheitslücken beheben kann.
+👍 Ich verstand schnell was die verschiedenen Gefahren bedeuten und wie diese Ausgenützt werden können. Also konnte ich mir schnell ein Bild davon machen wie die Probleme angegangen werden könnten.
 
 👎 Leider habe ich oft die Zeit etwas falsch eingeschätzt. Dadurch kam ich oft in Verzug mit Aufträgen, da ich mir viel Zeit für einen Auftrag nahm und dann für den nächsten zu wenig Zeit hatte.
 In Zukunft würde ich mir zuerst alle Aufträge anschauen die wir erledigen müssen und dann selber abschätzen wie viel Zeit ich pro Auftrag haben darf, sodass die anderen Aufträge nicht vernachlässigt werden.
