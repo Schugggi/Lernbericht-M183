@@ -7,7 +7,7 @@ Encryption ist ein Verfahren, das dazu verwendet wird, Informationen so zu versc
 
 ### Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Passwörter sollten gehasht werden, um sie vor unbefugtem Zugriff zu schützen.
 
 ### Beschreibung
 
