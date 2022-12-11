@@ -43,7 +43,7 @@ public class PasswordHasher {
 }
 ```
 
-![Bild Beispiel](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1940,h_691/https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1940/https://s22908.pcdn.co/wp-content/uploads/2016/09/password-hashing.png)
+![Bild Beispiel](https://github.com/Schugggi/Lernbericht-M183/blob/master/password-hashing.png))
 ### Verifikation
 
 Im beschreibenden Text zeige ich auf, dass ich das Thema verstanden habe und im Code Beispiel zeige ich auf wie es umgesetzt werden könnte.
