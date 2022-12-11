@@ -13,7 +13,37 @@ Passwörter sollten gehasht werden, um sie vor unbefugtem Zugriff zu schützen.
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
+Wenn Passwörter im Klartext gespeichert werden, können sie von jedem, der Zugriff auf die Datenbank hat, gelesen werden. Wenn sie jedoch gehasht werden, werden sie in eine verschlüsselte Form umgewandelt, die nur durch die Anwendung eines bestimmten Algorithmus wieder in lesbare Form gebracht werden kann. Dies bedeutet, dass selbst wenn jemand Zugriff auf die gehashten Passwörter hat, er sie nicht lesen kann, ohne den Algorithmus zu kennen. Gehashte Passwörter sind daher sicherer als Passwörter im Klartext und sollten immer verwendet werden, wenn Passwörter gespeichert werden.
+
+```
+import java.security.MessageDigest;
+
+public class PasswordHasher {
+  public static void main(String[] args) {
+    String password = "mypassword";
+
+    // Verwenden Sie den SHA-256-Algorithmus, um das Passwort zu hashen
+    MessageDigest digest = MessageDigest.getInstance("SHA-256");
+    byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
+
+    // Konvertieren Sie das Hash in einen lesbaren Hexadezimalwert
+    String hexHash = bytesToHex(hash);
+    System.out.println("Gehashtes Passwort: " + hexHash);
+  }
+
+  private static String bytesToHex(byte[] hash) {
+    StringBuilder hexString = new StringBuilder();
+    for (byte b : hash) {
+      String hex = Integer.toHexString(0xff & b);
+      if (hex.length() == 1) {
+        hexString.append('0');
+      }
+      hexString.append(hex);
+    }
+    return hexString.toString();
+  }
+}
+```
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
