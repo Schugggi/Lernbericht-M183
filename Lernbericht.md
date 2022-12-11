@@ -50,12 +50,11 @@ public class PasswordHasher {
 
 ### Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Im beschreibenden Text zeige ich auf, dass ich das Thema verstanden habe und im Code Beispiel zeige ich auf wie es umgesetzt werden könnte.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Das Modul allgemein verlief relativ gut und ich konnte die meisten Sicheheitslücken beheben kann.
 
-👎 und etwas, was nicht gut lief.
-
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+👎 Leider habe ich oft die Zeit etwas falsch eingeschätzt. Dadurch kam ich oft in Verzug mit Aufträgen, da ich mir viel Zeit für einen Auftrag nahm und dann für den nächsten zu wenig Zeit hatte.
+In Zukunft würde ich mir zuerst alle Aufträge anschauen die wir erledigen müssen und dann selber abschätzen wie viel Zeit ich pro Auftrag haben darf, sodass die anderen Aufträge nicht vernachlässigt werden.
